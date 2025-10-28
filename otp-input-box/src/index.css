@@ -1,0 +1,15 @@
+
+.container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+
+.digit-box{
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    font-size: 30px;
+    text-align: center;
+}
