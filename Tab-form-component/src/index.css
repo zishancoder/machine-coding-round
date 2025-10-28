@@ -1,0 +1,35 @@
+
+.tab-heading{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    & {cursor: pointer;}
+}
+
+.tab-body{
+    border: 2px solid black;
+    height: 300px;
+    width: 800px;
+}
+
+.form-container>div{
+   padding: 10px;
+}
+
+.form-container>div>label{
+    margin: 0 5px;
+}
+
+.tab-footer{
+    padding: 5px 0;
+}
+
+.btn{
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.hide{
+    display: none;
+}
+
