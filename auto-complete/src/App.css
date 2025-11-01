@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-field{
+    width: 50%;
+    padding: 5px;
+    font-size: medium;
+}
+
+.search-results{
+    width: 50%;
+    background-color: bisque;
+}
+
+
+.search-results>div{
+    padding: 5px;
+}
