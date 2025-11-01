@@ -1,0 +1,35 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion{
+  width: 60%;
+}
+
+.accordian-item{
+  padding: 10px;
+  background-color: beige;
+  border-radius: 10px;
+  margin: 10px;
+}
+.accordian-item-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.accordian-item-description{
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.accordian-item-icon{
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
